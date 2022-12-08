@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>47f7dab5-e01a-46ec-9d04-cdf863362b1f</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NLog" Version="4.7.11" />
+		<PackageReference Include="SimpleRpc" Version="1.0.0-beta1" />
+		<PackageReference Include="SimpleRpc.Serialization.Hyperion" Version="1.0.0-beta1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ServiceContract\ServiceContract.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\client2\\client2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\client2\\client2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\client2\\client2.csproj",
+        "projectName": "client2",
+        "projectPath": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\client2\\client2.csproj",
+        "packagesPath": "C:\\Users\\mehsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\client2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mehsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\ServiceContract\\ServiceContract.csproj": {
+                "projectPath": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\ServiceContract\\ServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.11, )"
+            },
+            "SimpleRpc": {
+              "target": "Package",
+              "version": "[1.0.0-beta1, )"
+            },
+            "SimpleRpc.Serialization.Hyperion": {
+              "target": "Package",
+              "version": "[1.0.0-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\ServiceContract\\ServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\ServiceContract\\ServiceContract.csproj",
+        "projectName": "ServiceContract",
+        "projectPath": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\ServiceContract\\ServiceContract.csproj",
+        "packagesPath": "C:\\Users\\mehsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehsa\\OneDrive\\Desktop\\simplerpc\\ServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mehsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
